@@ -1,0 +1,79 @@
+// // Online Java Compiler
+// // Use this editor to write, compile and run your Java code online
+
+// class HelloWorld {
+//     public static void main(String[] args) {
+//         System.out.println("Try programiz.pro");
+//     }
+// }
+// #include <stdio.h> # this is basiclly used in c language
+
+
+
+
+// the file name should be the same as class name
+// public class Myname{
+//     public static void main(String[] args){
+//         System.out.println("hello world");
+//         System.out.println("how are u");
+//         System.out.println("hello world");
+//         System.out.print("hello world");
+//         System.out.println("hello nsdvnidworld");
+//         System.out.println(234);
+//         //  you can use the word print but the differnece between println and print is it println will create a new line and print will print the statement but not print it in the new line
+//         // /* this isjcndsv*/ this is what we say a multiline comment basically comment can be representation as // forward slash
+//         System.out.println(234366);//this is how you print the integers
+//         System.out.println(2*2);// this is how u can perform operation like muliplication and many more like addition substraction etc as shown below
+//         System.out.println(2+2);
+//         System.out.println(2-2);
+//         System.out.println(2/2);
+//     }
+// }
+
+// this end over here now we will start the concepts of data type 
+// print the below thing one by one bec it will give error bec the class name is different for every variable we are declaring
+// first we will how to declare variables
+// 1st string
+
+// public class Main{
+//     public static void main(String[] args){
+//         String name = "prathamesh is an idiot";
+//         System.out.println(name);
+//     }
+// }
+ // 2nd integer 
+/*public class Main {
+    public static void main(String[] args) {
+    int name = 234; 
+    // the other way to write this is basically 
+    // int name; this way u can predefined the variable name
+    // name = 234;
+    
+    System.out.println(name);
+  }
+}*/
+
+
+//  this is basically the overall syntax that is needed to be done for all the data types
+
+public class Main {
+  public static void main(String[] args) {
+    boolean name = false;
+    int myNum = 5;
+    float myFloatNum = 5.99f;
+    char myLetter = 'D';
+    boolean myBool = true;
+    String myText = "Hello";
+    System.out.println(myNum);
+    System.out.println(myFloatNum);
+    System.out.println(myLetter);
+    System.out.println(myBool);
+    System.out.println(myText);
+    System.out.println(name);
+   
+    
+  }
+}
+
+
+
